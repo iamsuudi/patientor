@@ -1,4 +1,4 @@
-import { PatientType } from "../types";
+import { gender, PatientType } from "../types";
 
 const data: PatientType[] = [
 	{
@@ -6,7 +6,7 @@ const data: PatientType[] = [
 		name: "John McClane",
 		dateOfBirth: "1986-07-09",
 		ssn: "090786-122X",
-		gender: "male",
+		gender: "male" as gender,
 		occupation: "New york city cop",
 	},
 	{
@@ -14,7 +14,7 @@ const data: PatientType[] = [
 		name: "Martin Riggs",
 		dateOfBirth: "1979-01-30",
 		ssn: "300179-77A",
-		gender: "male",
+		gender: "male" as gender,
 		occupation: "Cop",
 	},
 	{
@@ -22,7 +22,7 @@ const data: PatientType[] = [
 		name: "Hans Gruber",
 		dateOfBirth: "1970-04-25",
 		ssn: "250470-555L",
-		gender: "other",
+		gender: "other" as gender,
 		occupation: "Technician",
 	},
 	{
@@ -30,7 +30,7 @@ const data: PatientType[] = [
 		name: "Dana Scully",
 		dateOfBirth: "1974-01-05",
 		ssn: "050174-432N",
-		gender: "female",
+		gender: "female" as gender,
 		occupation: "Forensic Pathologist",
 	},
 	{
@@ -38,7 +38,7 @@ const data: PatientType[] = [
 		name: "Matti Luukkainen",
 		dateOfBirth: "1971-04-09",
 		ssn: "090471-8890",
-		gender: "male",
+		gender: "male" as gender,
 		occupation: "Digital evangelist",
 	},
 ];

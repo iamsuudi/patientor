@@ -2,7 +2,7 @@ import express from "express";
 import {
 	createPatient,
 	getAllPatients,
-} from "../controllers/patientor.controller";
+} from "../controllers/patients.controller";
 
 const patientRouter = express.Router();
 
